@@ -1,0 +1,35 @@
+{
+  "name": "my-fault",
+  "version": "1.0.2",
+  "description": "my-fault",
+  "main": "base.js",
+  "dependencies": {
+    "eslint": "^5.5.0",
+    "jest": "^23.5.0"
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "husky": "^0.14.3"
+  },
+  "scripts": {
+    "test": "jest",
+    "coverage": "jest --coverage",
+    "lint": "eslint --fix --ext .js test",
+    "precommit": "npm test && npm run coverage",
+    "release": "standard-version"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://git.imweb.io/dkyxxi123/adam.git"
+  },
+  "author": "xi",
+  "license": "ISC",
+  "directories": {
+    "test": "test"
+  },
+  "keywords": [
+    "plugin",
+    "js"
+  ]
+}
