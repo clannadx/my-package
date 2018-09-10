@@ -2,11 +2,11 @@
 
 ### 安装
 ```
-$ npm install my-fault
+$ npm install aslan
 ```
-### 使用 my-fault
+### 使用 aslan
 ```
-import adam from 'my-fault'
+import adam from 'aslan'
 ```
 ### Function
 ### query=(name, querystring)

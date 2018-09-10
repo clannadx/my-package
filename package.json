@@ -1,7 +1,7 @@
 {
-  "name": "my-fault",
+  "name": "aslan",
   "version": "1.0.2",
-  "description": "my-fault",
+  "description": "aslan",
   "main": "base.js",
   "dependencies": {
     "eslint": "^5.5.0",
@@ -14,7 +14,7 @@
   },
   "scripts": {
     "test": "jest",
-    "coverage": "jest --coverage",
+    "coverage": "npx jest --coverage",
     "lint": "eslint --fix --ext .js test",
     "precommit": "npm test && npm run coverage",
     "release": "standard-version"
